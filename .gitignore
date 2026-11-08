@@ -1,0 +1,26 @@
+# ---- Data (never commit the Kaggle dataset) ----
+src/data/*
+!src/data/.gitkeep
+*.csv
+
+# ---- OS / editor files ----
+.DS_Store
+# macOS metadata files created on external (exFAT/FAT) drives
+._*
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- R ----
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
