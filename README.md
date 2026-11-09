@@ -177,12 +177,12 @@ Both scripts follow the same steps, and each printed section is labelled with it
 | **Q17 – Predict test** | Loads `test.csv` (418 rows), applies the same cleaning and writes the predictions CSV. |
 | **Q18 – Test accuracy** | See the note below. |
 
-Typical results:
+Expected results (the hold-out split uses a fixed seed, so you should get the same numbers):
 
 | | Train accuracy | Hold-out accuracy | Predicted survivors in test |
 |--|--|--|--|
-| Python | 0.831 | 0.838 | 172 / 418 |
-| R | 0.834 | 0.832 | 170 / 418 |
+| Python | 0.8305 | 0.8380 | 172 / 418 |
+| R | 0.8339 | 0.8315 | 170 / 418 |
 
 ### Note on test-set accuracy (Q18)
 
